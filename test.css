@@ -1,0 +1,13 @@
+.row{
+  display: flex;
+  background-color: beige;
+  border: 2px solid red;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.row .column{
+  background-color: brown;
+  padding:10px;
+  margin: 10px;
+  flex: 1;
+}

@@ -1,0 +1,330 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Charm', cursive;
+  }
+  .home-icon{
+    width: 30px;
+    height: 30px;
+  }
+  nav{
+    margin: 0px;
+  }
+  .navbar.navbar-inverse{
+    margin: 0px;
+   }
+
+  body {
+    background-color: #0000009f;
+    padding: 0px; 
+    margin: 10px;
+    font-family: Arial;
+  }
+div.container{
+  width: 100%;
+  padding:0px;
+  margin:0px;
+}
+
+.item.active {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 599px) {
+  .item.active {
+    max-height: 170px;
+  }
+}
+@media screen and (max-width: 799px) {
+  .item.active {
+    max-height: 280px;
+  }
+}
+@media screen and (max-width: 999px) {
+  .item.active {
+    max-height: 380px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .item.active {
+    max-height: 450px;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .item.active {
+    max-height: 550px;
+  }
+}
+  .caroseul-inner{
+    display: flex;
+    width: 100%;
+  }
+  div.carousel-caption {
+    text-shadow: 2px 2px black;
+    color: red;
+  }
+  
+  /* Center website */
+  .main {
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid #999;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #999;
+    align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  }
+  .main a{
+    color:#000000;
+    text-decoration: none;
+  }
+  .main:hover{
+    text-decoration: none;
+  }
+  /* Create four equal columns that floats next to each other */
+  .main .column {
+    background-color: rgba(223, 189, 189, 0.61);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #999;
+    border: 1px solid rgb(61, 61, 65);
+    margin: 10px auto;
+ 
+  }
+  /* Clear floats after rows */
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+  
+  /* Content */
+  .content {
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (min-width: 740px) {
+    .main .column {
+      width: 45%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 739px) {
+    .main .column {
+      width: 90%;
+    }
+  } 
+
+ul,li{
+    padding:0;
+    margin:0;
+}
+li{
+    list-style-type:none;
+}
+
+
+
+footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', sans-serif; }
+.footer-col { margin-top:50px; }
+.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
+
+.footer-col p { color:#fff; font-size:12px; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+.footer-col p i { width:20px; color:#999;}
+
+.footer-ul { list-style-type:none;  padding-left:0; margin-left:2px;}
+.footer-ul li { line-height:29px; font-size:12px;}
+.footer-ul li a { color:#a0a3a4; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+.footer-ul i { margin-right:10px;}
+.footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
+
+ .copyright { min-height:40px; background-color:#000000;}
+ .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0;}
+ .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
+ .post p { font-size:12px; color:#FFF; line-height:20px;}
+ .post p span { display:block; color:#8f8f8f;}
+ .bottom_ul { list-style-type:none; float:right; margin-bottom:0;}
+ .bottom_ul li { float:left; line-height:40px;}
+ .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+ .bottom_ul li a { color:#FFF;  font-size:12px;}
+.social-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 7px;
+    border-radius: 50%;
+}
+ .footer-social li{
+     float:left;
+ }
+ .linked-in{
+     background-color:#007bb6;
+ }
+ .facebook{
+     background-color:#3b5998;
+ }
+ .twitter{
+     background-color:#1da1f2;
+ }
+ .google{
+     background-color:#f63e28;
+ }
+
+ 
+ /* sadadasdasd */
+ .slide-container {
+  position: relative;
+  width: 100%;
+  margin:auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+@media screen and (min-width: 1100px) {
+.mySlides img{
+    object-fit: cover;
+    max-height:200px;
+}
+.demo{
+    max-height: 50px;
+}
+}
+@media screen and (max-width: 1099px) {
+  .mySlides img{
+      object-fit: cover;
+      max-height:140px;
+  }
+
+  .demo{
+      max-height: 35px;
+  }
+} 
+@media screen and (max-width: 640px) {
+  .mySlides img{
+      object-fit: cover;
+      max-height:100px;
+  }
+  .demo{
+      max-height: 20px;
+  }
+} 
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.slide-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.slide-row{
+    display: flex;
+    border: 3px solid green;
+    padding:0px;
+    margin: 0px;
+}
+
+/* Six columns side by side */
+.slide-column {
+  float: left;
+  width: 33.33%;
+}
+.slide-column img{
+    width: 10%;
+    object-fit: fill;
+    border: 2px solid red;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+form{
+  margin: 20px 50px;
+}
+
+.container .row{
+  padding:50px;
+}
+
+/*Liên hệ*/
+@media screen and (max-width: 939px) {
+  .form-group{
+    width: 100%;
+  }
+}
+  @media screen and (min-width: 940px) {
+    .form-group{
+      width: 50%;
+    }
+  }
